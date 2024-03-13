@@ -1,11 +1,16 @@
 
 import './App.css'
+import Navbar from './component/Navbar'
+import { HomePage } from './pages/HomePage'
 
 function App() {
  
 
   return (
-   <>Net Puppy</>
+   <div className='App'>
+   <Navbar/>
+     <HomePage/>
+   </div>
   )
 }
 

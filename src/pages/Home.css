@@ -1,0 +1,93 @@
+.line{
+    color: #000;
+    font-family: Mirador;
+    font-size: 40px;
+    width: 33%;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 17px;
+    letter-spacing: 0.8px;
+}
+
+
+.second-line{
+    color: #60BDBB;
+    font-family: "TT Chocolates Trl";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 17px;
+    letter-spacing: 0.8px;
+}
+
+.swiming-div {
+    position: relative; 
+    background-image: url('../assets/swiming.png');
+    background-size: cover;
+    background-position: center;
+    width: 563px;
+  
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.swiming-div::after {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    z-index: 1;
+}
+.swiming-p {
+    font-family: "TT Chocolates Trl";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #ffff !important;
+    margin-bottom: 11rem; 
+}
+
+.swiming-span {
+    font-family: "TT Chocolates Trl";
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #E1E1E1;
+   
+}
+.container{
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.Taekwondo-div {
+    position: relative; 
+    background-image: url('../assets/Taekwondo.svg');
+    background-size: cover;
+    background-position: center;
+    width: 563px;
+  
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.swiming-div::after {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    z-index: 1;
+}
+
