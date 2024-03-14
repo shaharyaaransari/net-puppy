@@ -3,33 +3,33 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+  
     padding: 100px;
   }
   
   .rankContainer {
-    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     text-align: center;
     background-color: white;
     padding: 20px;
-    width: 30%;
+    width: 100px;
+    height: 165px;
     border-radius: 17px;
     border-width: 2.5px;
     border-style: solid;
     border-color: rgba(185, 1, 36, 1);
   }
   
-  .rankContainer img {
-    max-width: 100%;
-  }
+ 
   
   .rankTitle {
     font-family: Mirador;
-    font-size: 35px;
+    font-size: 25px;
     font-style: italic;
     font-weight: 900;
-    line-height: 42px;
+    line-height: 20px;
     letter-spacing: 0em;
-    color: rgba(185, 1, 36, 1);
+    color:#B90124;
   }
   
   .rankSubtitle {

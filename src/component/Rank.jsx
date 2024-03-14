@@ -19,12 +19,12 @@ const Rank = () => {
           subtitle="In Dehradun"
           description="Co-Educational Boarding School in Dehradun by Education Today 2020"
         />
-        <TextBox
+        <Text
           heading="#2"
           subtitle="In Uttarakhand"
           description="Co-Educational Boarding School in North India by Education Today 2020"
         />
-        <TextBox
+        <Text
           heading="#4"
           subtitle="In India"
           description="Co-Educational Boarding School in India by Education Today 2020"
