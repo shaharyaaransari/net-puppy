@@ -1,0 +1,67 @@
+.feedback {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+    gap: 30px;
+  }
+  
+  .contentLeft {
+    width: 50%;
+    text-align: center;
+    padding-right: 300px;
+    padding-left: 20px;
+  }
+  
+  .title {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 3px;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+  
+  .parent {
+    color: rgba(185, 1, 36, 1);
+    font-family: 'Mirador';
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 900;
+  }
+  
+  .dividerContainer {
+    margin-top: 4px;
+    text-align: center;
+  }
+  
+  .divider {
+    width: 500px;
+  }
+  
+  .description {
+    font-family: 'TT Chocolates Trl';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 40px;
+  }
+  
+  .contentRight {
+    width: 30%;
+    background-color: rgba(185, 1, 36, 1);
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    padding: 20px;
+  }
+  
+  .phoneContainer {
+    position: relative;
+    right: 300px;
+  }
+  
+  .phone {
+    max-width: 100%;
+  }
+  

@@ -11,6 +11,9 @@ import { Why } from "../component/Why";
 import Campus from "../component/campus";
 import Achivement from "../component/Achivement";
 import Rank from "../component/Rank";
+import Feedback from "../component/Feedback";
+import Colabration from "../component/Colabration";
+import Policy from "../component/Policy";
 export const HomePage = () => {
   return (
       <>
@@ -64,6 +67,10 @@ export const HomePage = () => {
 
                    <Achivement/>
                      <Rank/>
+                       <Feedback/>
+                         <Colabration/>
+
+                         <Policy/>
       </div>
       </>
     

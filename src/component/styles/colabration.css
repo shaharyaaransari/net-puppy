@@ -1,0 +1,41 @@
+.colabration{
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .leftImage {
+    position: relative;
+    width: 50%;
+  }
+  
+  .leftImage img {
+    width: 80%;
+  }
+  
+  .textOverlay {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    width: 40%;
+    color: white;
+  }
+  
+  .rightImages {
+    width: 50%;
+    margin-left: 20px;
+  }
+  
+  .topRow,
+  .bottomRow {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .topRow img,
+  .bottomRow img {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+  
