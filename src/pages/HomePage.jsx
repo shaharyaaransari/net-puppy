@@ -14,6 +14,7 @@ import Rank from "../component/Rank";
 import Feedback from "../component/Feedback";
 import Colabration from "../component/Colabration";
 import Policy from "../component/Policy";
+import Map from "../component/Map";
 export const HomePage = () => {
   return (
       <>
@@ -71,6 +72,7 @@ export const HomePage = () => {
                          <Colabration/>
 
                          <Policy/>
+                         <Map/>
       </div>
       </>
     

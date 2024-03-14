@@ -32,6 +32,17 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  @media (max-width: 400px) {
+    .textOverlay {
+      font-size: 14px; 
+    }
+    
+    .topRow img,
+    .bottomRow img {
+      width: 80%; 
+    }
+  }
   
   .topRow img,
   .bottomRow img {

@@ -66,3 +66,38 @@
     color: white;
   }
   
+
+  @media (max-width: 600px) {
+    .reportSection {
+      padding: 20px; 
+    }
+    
+    .overlay {
+      padding: 10px; 
+    }
+    
+    .logo {
+      height: 30px; 
+      width: 30px; 
+    }
+    
+    .textContainer {
+      margin-top: 5px; 
+    }
+    
+    .heading {
+      font-size: 18px; 
+    }
+    
+    .subHeading {
+      font-size: 18px; 
+    
+    .statisticsContainer {
+      padding: 5px; 
+    }
+    
+    .statisticBox {
+      width: 50%; 
+    }
+  }
+}

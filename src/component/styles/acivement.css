@@ -61,3 +61,42 @@
     margin-left: 70px;
   }
   
+
+  @media screen and (max-width: 600px) {
+    .achievement {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .leftSection,
+    .rightSection {
+      width: 100%;
+    }
+  
+    .middleSection {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .text {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  
+    .highlight {
+      font-size: 16px;
+    }
+  
+    .leftTop,
+    .leftBottom,
+    .rightMiddle {
+      margin: 10px;
+    }
+  
+    .left3 {
+      width: 150px;
+      height: 8px;
+      margin-top: 40px;
+      margin-left: 10px;
+    }
+  }
