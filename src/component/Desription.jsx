@@ -4,7 +4,7 @@ export const Desription = () => {
   return (
     <div style={{ display: 'flex', justifyContent: 'space-between', padding: '4px', borderRadius: '8px' }}>
     <div style={{ flex: '1', marginRight: '4px' }}>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', width:"50%" }}>
         <img src={image19} alt="School Image" />
       </div>
     </div>

@@ -38,7 +38,7 @@
  .imagesContainer {
     display: flex;
     width: 50%;
-    margin-right: 50px;
+    margin-right: 30px;
   }
   .imagesdescription{
       flex: 1;
