@@ -1,0 +1,68 @@
+/* homePageContent5.css */
+
+.reportSection {
+    padding: 50px;
+  }
+  
+  .backgroundImageContainer {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.437);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+    width: 50px;
+    filter: invert(40%) brightness(200%);
+  }
+  
+  .textContainer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 25px;
+  }
+  
+  .subHeading {
+    color: white;
+    font-size: 25px;
+    margin-left: 50%;
+    white-space: nowrap;
+  }
+  
+  .backgroundImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .statisticsContainer {
+    width: 60%;
+    margin: auto;
+    transform: translateY(-50%);
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: rgba(185, 1, 36, 1);
+    display: flex;
+  }
+  
+  .statisticBox {
+   width: 10%;
+   flex: 1;
+    text-align: center;
+    color: white;
+  }
+  

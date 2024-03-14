@@ -1,0 +1,46 @@
+.rank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+  }
+  
+  .rankContainer {
+    flex: 1;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 17px;
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: rgba(185, 1, 36, 1);
+  }
+  
+  .rankContainer img {
+    max-width: 100%;
+  }
+  
+  .rankTitle {
+    font-family: Mirador;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0em;
+    color: rgba(185, 1, 36, 1);
+  }
+  
+  .rankSubtitle {
+    margin-top: 2px;
+    font-size: 16px;
+  }
+  
+  .arrowContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  

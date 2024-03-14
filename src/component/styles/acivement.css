@@ -1,0 +1,63 @@
+
+
+.acievement {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 90px;
+  }
+  
+  .leftSection,
+  .rightSection {
+    width: 45%;
+  }
+  
+  .middleSection {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text {
+    font-family: Mirador;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  
+  .highlight {
+    font-size: 30px;
+    color: rgba(96, 189, 187, 1);
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .leftTop,
+  .leftBottom,
+  .rightMiddle {
+    margin: 30px;
+  }
+  
+  .leftTop {
+    margin-right: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .leftBottom {
+  
+    margin-top: 60px;
+  }
+  
+  .left3 {
+    width: 250px;
+    height: 16px;
+    margin-top: 150px;
+    margin-left: 70px;
+  }
+  

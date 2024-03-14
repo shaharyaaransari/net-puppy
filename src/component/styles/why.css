@@ -1,0 +1,80 @@
+/* styles/why.css */
+.questionSection {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .questionSection h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+  
+  .questionSection h2 {
+    font-size: 28px;
+    text-align: start;
+    margin: 0;
+  }
+  
+  .questionSection h1 span {
+    color: rgba(185, 1, 36, 1);
+  }
+  
+  .questionSection .managementTitle {
+    color: rgba(185, 1, 36, 1);
+    font-size: 46px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .questionSection .managementDescription {
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  
+ .imagesContainer {
+    display: flex;
+    width: 50%;
+    margin-right: 50px;
+  }
+  .imagesdescription{
+      flex: 1;
+      width: 50%;
+      margin-right: 50px;
+  }
+  .questionSection .imagesContainer .students {
+    border-radius: 5px;
+    width: calc(100% - 150px);
+    margin-right: 50px;
+    object-fit: cover;
+  }
+  
+  .questionSection .listContainer {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .questionSection .listContainer li {
+    text-align: center;
+    font-size: .9rem;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .questionSection .listContainer li:last-child {
+    background-color: rgba(185, 1, 36, 1);
+  }
+  
+  .questionSection .listContainer li:last-child span {
+    color: white;
+  }
+  
+  

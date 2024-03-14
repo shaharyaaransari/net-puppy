@@ -31,3 +31,9 @@ body {
         margin-left: 20%;
       width: fit-content;
 }
+
+.logo{
+  height: 50px;
+    width: 50px;
+    filter: none;
+}
